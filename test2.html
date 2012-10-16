@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test2.c</title>
+	<link href="style.css" rel="stylesheet" type="text/css" media="screen" /></head>
+<body>
+	<div class="code">
+#include &lt;iostream&gt;<br />
+<br />
+<span class="comment">/**<br />
+ * @author <a href="mailto:user@msu.edu">user@msu.edu</a><br />
+ */</span><br />
+void func()<br />
+{
+<ul>    std::cout &lt;&lt; <span class="string">"In func"</span> &lt;&lt; std::endl;<br />
+</ul>}<br />
+<br />
+<span class="keyword">int</span> main(<span class="keyword">int</span> argc, <span class="keyword">char</span> **argv) {
+<ul>    <span class="comment">// An example with a different brace style</span><br />
+    <span class="keyword">int</span> i;<br />
+    std::cin &gt;&gt; i;<br />
+    <span class="keyword">if</span> (i &lt; 2){
+<ul>        std::cout &lt;&lt; <span class="string">"&lt;b&gt;It's less than 2&lt;/b&gt;"</span>;<br />
+    </ul>} <span class="keyword">else</span>{
+<ul>        <span class="comment">// make sure escape sequences work in strings</span><br />
+        std::cout &lt;&lt; <span class="string">"Other string"</span>;<br />
+        std::cout &lt;&lt; <span class="string">"\"\\"</span> &lt;&lt; std::endl<br />
+                  &lt;&lt; <span class="string">"\\\\"</span> &lt;&lt; std::endl<br />
+                  &lt;&lt; <span class="string">"\\\"\\"</span> &lt;&lt; std::endl;<br />
+    </ul>}<br />
+    <span class="keyword">return</span> 0;<br />
+</ul>}<br />
+	</div>
+</body>
+</html>

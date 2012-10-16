@@ -1,0 +1,19 @@
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.code {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.string {
+    color: #0000ff;
+}
+.comment {
+    color: #00ff00;
+}
+.keyword {
+    color: #ff0000;
+}

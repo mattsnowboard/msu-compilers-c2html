@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test3.c</title>
+	<link href="style.css" rel="stylesheet" type="text/css" media="screen" /></head>
+<body>
+	<div class="code">
+#include &lt;iostream&gt;<br />
+<br />
+<span class="comment">/**<br />
+ * Here is a comment with stars and slashes*<br />
+/<br />
+// Fake block comment<br />
+ /***/</span><br />
+<span class="keyword">int</span> main(<span class="keyword">int</span> argc, <span class="keyword">char</span> **argv) <br />
+{
+<ul>    <span class="keyword">int</span> something = 4;<br />
+    <span class="keyword">float</span> other = 4.2;<br />
+    <span class="keyword">char</span> c = 'b';<br />
+    <span class="comment">//// &lt;p&gt;Here is a &lt;strong&gt;comment&lt;/strong&gt; with html&lt;/p&gt;</span><br />
+    <span class="comment">// <a href="http://msu.edu">http://msu.edu</a></span><br />
+    <span class="comment">// <a href="https://msu.edu">https://msu.edu</a></span><br />
+    <span class="comment">// <a href="http://my-website.something.com/#anchor">http://my-website.something.com/#anchor</a></span><br />
+    <span class="comment">// <a href="HTTP://something.com:8080/page.htm">HTTP://something.com:8080/page.htm</a></span><br />
+    <span class="comment">// <a href="ftp://example.com">ftp://example.com</a></span><br />
+    <span class="comment">// Some invalid URLs are allowed: <a href="http://www.2/bad_url&&">http://www.2/bad_url&&</a></span><br />
+    for ( <span class="keyword">int</span> i = 0; i &lt; something; i++)<br />
+    {
+<ul>        <span class="keyword">if</span> (other &lt; 0)<br />
+        {
+<ul>            <span class="keyword">if</span> ( c == 'b')<br />
+            {
+<ul>                <span class="keyword">while</span> ( other &lt; 1.0)<br />
+                {
+<ul>                    c++;<br />
+                </ul>}<br />
+            </ul>}<br />
+            <span class="keyword">else</span><br />
+            {
+<ul>                c--;<br />
+            </ul>}<br />
+        </ul>}<br />
+    </ul>}<br />
+    <span class="comment">// The following are not valid URLs according to the rules of this program</span><br />
+    <span class="comment">// www.example.com</span><br />
+    <span class="comment">// bit.ly/902sfkl</span><br />
+    <span class="comment">// http://invalid-domain</span><br />
+    <span class="comment">// http://invalid/something/something</span><br />
+    <span class="keyword">return</span> 0;<br />
+</ul>}<br />
+<span class="comment">/* An unclosed comment shouldn't crash the whole program<br />
+</span>	</div>
+</body>
+</html>
