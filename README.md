@@ -1,3 +1,18 @@
+C2HTML
+======
+
+A project for CSE450 Compilers
+
+The assignment is to make a syntax highlighter that creates .html files from .c files.
+
+Dependencies
+------------
+
+This program uses Flex and Bison
+
+About
+-----
+
 Running make will compile the program and create the *.html files for the test files: test1.c, test2.c, and test3.c
 
 Instead of using the deprecated "<font color="..."></font>" tags, I opted to use <span> tags with classes and a simple CSS file to color the comments, strings, and keywords.  It is also possible to change the colors by just changing the CSS file.
